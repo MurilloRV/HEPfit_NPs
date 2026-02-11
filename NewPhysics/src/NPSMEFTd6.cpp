@@ -122,7 +122,11 @@ const std::string NPSMEFTd6::NPSMEFTd6Vars[NNPSMEFTd6Vars]
     "eZH_1314_Hbox", "eZH_1314_HQ1_11", "eZH_1314_Hu_11", "eZH_1314_Hd_11", "eZH_1314_HQ3_11", "eZH_1314_HD", "eZH_1314_HB", "eZH_1314_HW", "eZH_1314_HWB", "eZH_1314_DHB", "eZH_1314_DHW", "eZH_1314_DeltaGF",
     "ettH_2_HG", "ettH_2_G", "ettH_2_uG_33r", "ettH_2_DeltagHt",
     "ettH_78_HG", "ettH_78_G", "ettH_78_uG_33r", "ettH_78_DeltagHt",
-    "ettH_1314_HG", "ettH_1314_G", "ettH_1314_uG_33r", "ettH_1314_DeltagHt"};
+    "ettH_1314_HG", "ettH_1314_G", "ettH_1314_uG_33r", "ettH_1314_DeltagHt",
+    "theoerr_FCCee240", "theoerr_FCCee365", "NPmismatch_FCCee240", "NPmismatch_FCCee365",
+    "theoerr_FCCee240_function_x0_coef", "theoerr_FCCee240_function_x1_coef", "theoerr_FCCee240_function_x2_coef", 
+    "theoerr_FCCee365_function_x0_coef", "theoerr_FCCee365_function_x1_coef", "theoerr_FCCee365_function_x2_coef"
+};
 
 const std::string NPSMEFTd6::NPSMEFTd6VarsRot[NNPSMEFTd6Vars]
         = {"CG", "CW", "C2B", "C2W", "C2BS", "C2WS", "CHG", "CHWHB_gaga", "CHWHB_gagaorth", "CDHB", "CDHW", "CDB", "CDW", "CHWB", "CHD", "CT", "CHbox", "CH",
@@ -234,7 +238,11 @@ const std::string NPSMEFTd6::NPSMEFTd6VarsRot[NNPSMEFTd6Vars]
     "eZH_1314_Hbox", "eZH_1314_HQ1_11", "eZH_1314_Hu_11", "eZH_1314_Hd_11", "eZH_1314_HQ3_11", "eZH_1314_HD", "eZH_1314_HB", "eZH_1314_HW", "eZH_1314_HWB", "eZH_1314_DHB", "eZH_1314_DHW", "eZH_1314_DeltaGF",
     "ettH_2_HG", "ettH_2_G", "ettH_2_uG_33r", "ettH_2_DeltagHt",
     "ettH_78_HG", "ettH_78_G", "ettH_78_uG_33r", "ettH_78_DeltagHt",
-    "ettH_1314_HG", "ettH_1314_G", "ettH_1314_uG_33r", "ettH_1314_DeltagHt"};
+    "ettH_1314_HG", "ettH_1314_G", "ettH_1314_uG_33r", "ettH_1314_DeltagHt",
+    "theoerr_FCCee240", "theoerr_FCCee365", "NPmismatch_FCCee240", "NPmismatch_FCCee365",
+    "theoerr_FCCee240_function_x0_coef", "theoerr_FCCee240_function_x1_coef", "theoerr_FCCee240_function_x2_coef", 
+    "theoerr_FCCee365_function_x0_coef", "theoerr_FCCee365_function_x1_coef", "theoerr_FCCee365_function_x2_coef"
+};
 
 const std::string NPSMEFTd6::NPSMEFTd6Vars_LFU_QFU[NNPSMEFTd6Vars_LFU_QFU]
         = {"CG", "CW", "C2B", "C2W", "C2BS", "C2WS", "CHG", "CHW", "CHB", "CDHB", "CDHW", "CDB", "CDW", "CHWB", "CHD", "CT", "CHbox", "CH",
@@ -287,7 +295,11 @@ const std::string NPSMEFTd6::NPSMEFTd6Vars_LFU_QFU[NNPSMEFTd6Vars_LFU_QFU]
     "eZH_1314_Hbox", "eZH_1314_HQ1_11", "eZH_1314_Hu_11", "eZH_1314_Hd_11", "eZH_1314_HQ3_11", "eZH_1314_HD", "eZH_1314_HB", "eZH_1314_HW", "eZH_1314_HWB", "eZH_1314_DHB", "eZH_1314_DHW", "eZH_1314_DeltaGF",
     "ettH_2_HG", "ettH_2_G", "ettH_2_uG_33r", "ettH_2_DeltagHt",
     "ettH_78_HG", "ettH_78_G", "ettH_78_uG_33r", "ettH_78_DeltagHt",
-    "ettH_1314_HG", "ettH_1314_G", "ettH_1314_uG_33r", "ettH_1314_DeltagHt"};
+    "ettH_1314_HG", "ettH_1314_G", "ettH_1314_uG_33r", "ettH_1314_DeltagHt",
+    "theoerr_FCCee240", "theoerr_FCCee365", "NPmismatch_FCCee240", "NPmismatch_FCCee365",
+    "theoerr_FCCee240_function_x0_coef", "theoerr_FCCee240_function_x1_coef", "theoerr_FCCee240_function_x2_coef", 
+    "theoerr_FCCee365_function_x0_coef", "theoerr_FCCee365_function_x1_coef", "theoerr_FCCee365_function_x2_coef"
+};
 
 const std::string NPSMEFTd6::NPSMEFTd6VarsRot_LFU_QFU[NNPSMEFTd6Vars_LFU_QFU]
         = {"CG", "CW", "C2B", "C2W", "C2BS", "C2WS", "CHG", "CHWHB_gaga", "CHWHB_gagaorth", "CDHB", "CDHW", "CDB", "CDW", "CHWB", "CHD", "CT", "CHbox", "CH",
@@ -340,7 +352,11 @@ const std::string NPSMEFTd6::NPSMEFTd6VarsRot_LFU_QFU[NNPSMEFTd6Vars_LFU_QFU]
     "eZH_1314_Hbox", "eZH_1314_HQ1_11", "eZH_1314_Hu_11", "eZH_1314_Hd_11", "eZH_1314_HQ3_11", "eZH_1314_HD", "eZH_1314_HB", "eZH_1314_HW", "eZH_1314_HWB", "eZH_1314_DHB", "eZH_1314_DHW", "eZH_1314_DeltaGF",
     "ettH_2_HG", "ettH_2_G", "ettH_2_uG_33r", "ettH_2_DeltagHt",
     "ettH_78_HG", "ettH_78_G", "ettH_78_uG_33r", "ettH_78_DeltagHt",
-    "ettH_1314_HG", "ettH_1314_G", "ettH_1314_uG_33r", "ettH_1314_DeltagHt"};
+    "ettH_1314_HG", "ettH_1314_G", "ettH_1314_uG_33r", "ettH_1314_DeltagHt",
+    "theoerr_FCCee240", "theoerr_FCCee365", "NPmismatch_FCCee240", "NPmismatch_FCCee365",
+    "theoerr_FCCee240_function_x0_coef", "theoerr_FCCee240_function_x1_coef", "theoerr_FCCee240_function_x2_coef", 
+    "theoerr_FCCee365_function_x0_coef", "theoerr_FCCee365_function_x1_coef", "theoerr_FCCee365_function_x2_coef",
+};
 
 NPSMEFTd6::NPSMEFTd6(const bool FlagLeptonUniversal_in, const bool FlagQuarkUniversal_in)
 : NPbase(), NPSMEFTd6M(*this), FlagLeptonUniversal(FlagLeptonUniversal_in), FlagQuarkUniversal(FlagQuarkUniversal_in)
@@ -357,8 +373,15 @@ NPSMEFTd6::NPSMEFTd6(const bool FlagLeptonUniversal_in, const bool FlagQuarkUniv
     FlagHiggsSM = false;
     FlagLoopHd6 = false;
     FlagLoopH3d6Quad = false;
+    FlagLoopH3d6Quad_C1term = false;
+    FlagLoopH3d6Cubi = false;
+    FlagLoopH3d6Full = false;
     FlagRGEciLLA = false;
     FlagMWinput = false;
+    FlagLoopHd6NoSubleading = false;
+    FlagHalfmueeZH = false;
+    FlagLoopHd6noWFR = false;
+    FlagUseKlamDependentUncertainties = false;
     setModelLinearized();
     
     w_WW = gsl_integration_cquad_workspace_alloc(100);
@@ -983,6 +1006,16 @@ NPSMEFTd6::NPSMEFTd6(const bool FlagLeptonUniversal_in, const bool FlagQuarkUniv
     ModelParamMap.insert(std::make_pair("ettH_1314_G", std::cref(ettH_1314_G)));
     ModelParamMap.insert(std::make_pair("ettH_1314_uG_33r", std::cref(ettH_1314_uG_33r)));
     ModelParamMap.insert(std::make_pair("ettH_1314_DeltagHt", std::cref(ettH_1314_DeltagHt)));
+    ModelParamMap.insert(std::make_pair("theoerr_FCCee240", std::cref(theoerr_FCCee240)));
+    ModelParamMap.insert(std::make_pair("theoerr_FCCee365", std::cref(theoerr_FCCee365)));
+    ModelParamMap.insert(std::make_pair("NPmismatch_FCCee240", std::cref(NPmismatch_FCCee240)));
+    ModelParamMap.insert(std::make_pair("NPmismatch_FCCee365", std::cref(NPmismatch_FCCee365)));
+    ModelParamMap.insert(std::make_pair("theoerr_FCCee240_function_x0_coef", std::cref(theoerr_FCCee240_function_x0_coef)));
+    ModelParamMap.insert(std::make_pair("theoerr_FCCee240_function_x1_coef", std::cref(theoerr_FCCee240_function_x1_coef)));
+    ModelParamMap.insert(std::make_pair("theoerr_FCCee240_function_x2_coef", std::cref(theoerr_FCCee240_function_x2_coef)));
+    ModelParamMap.insert(std::make_pair("theoerr_FCCee365_function_x0_coef", std::cref(theoerr_FCCee365_function_x0_coef)));
+    ModelParamMap.insert(std::make_pair("theoerr_FCCee365_function_x1_coef", std::cref(theoerr_FCCee365_function_x1_coef)));
+    ModelParamMap.insert(std::make_pair("theoerr_FCCee365_function_x2_coef", std::cref(theoerr_FCCee365_function_x2_coef)));
     
     if (FlagLeptonUniversal) {
         CeH_12r = 0.0;
@@ -1077,6 +1110,18 @@ bool NPSMEFTd6::PostUpdate()
     } else {
         cLH3d62 = 0.0;
     }
+
+    if (FlagLoopH3d6Quad_C1term || FlagLoopH3d6Cubi || FlagQuadraticTerms) {
+        cLH3d62_C1term = 1.0;
+    } else {
+        cLH3d62_C1term = 0.0;
+    }
+
+    if (FlagLoopH3d6Cubi) {
+        cLH3d63 = 1.0;
+    } else {
+        cLH3d63 = 0.0;
+    }
        
 //  1) Post-update operations involving SM parameters only (and Lambda_NP)
     LambdaNP2 = Lambda_NP * Lambda_NP;
@@ -1128,9 +1173,19 @@ bool NPSMEFTd6::PostUpdate()
     
     dZH = -(9.0/16.0)*( GF*mHl*mHl/sqrt(2.0)/M_PI/M_PI )*( 2.0*M_PI/3.0/sqrt(3.0) - 1.0 );
     
-    dZH1 = dZH / (1.0 - dZH);
-    
-    dZH2 = dZH * (1 + 3.0 * dZH) / (1.0 - dZH) / (1.0 - dZH);
+    if (FlagLoopHd6NoSubleading) {
+        dZH1 = dZH;
+        dZH2 = dZH;
+        dZH3 = 0.0;
+    } else if (FlagLoopHd6noWFR) {
+        dZH1 = 0.0;
+        dZH2 = 0.0;
+        dZH3 = 0.0;
+    } else {
+        dZH1 = dZH / (1.0 - dZH);
+        dZH2 = dZH * (1 + 3.0 * dZH) / (1.0 - dZH) / (1.0 - dZH);
+        dZH3 = dZH * dZH * (1 + dZH) / pow( (1.0 - dZH), 3);
+    }
             
 //  2) Post-update operations related to assumptions in the form of the dimension-6 operators 
   
@@ -2923,6 +2978,27 @@ void NPSMEFTd6::setParameter(const std::string name, const double& value)
          ettH_1314_uG_33r = value;
     } else if (name.compare("ettH_1314_DeltagHt") == 0) {
          ettH_1314_DeltagHt = value;
+    } else if (name.compare("theoerr_FCCee240") == 0) {
+         theoerr_FCCee240 = value;
+    } else if (name.compare("theoerr_FCCee365") == 0) {
+         theoerr_FCCee365 = value;
+    } else if (name.compare("NPmismatch_FCCee240") == 0) {
+         NPmismatch_FCCee240 = value;
+    } else if (name.compare("NPmismatch_FCCee365") == 0) {
+         NPmismatch_FCCee365 = value;
+    } else if (name.compare("theoerr_FCCee240_function_x0_coef") == 0) {
+         theoerr_FCCee240_function_x0_coef = value;
+    } else if (name.compare("theoerr_FCCee240_function_x1_coef") == 0) {
+         theoerr_FCCee240_function_x1_coef = value;
+    } else if (name.compare("theoerr_FCCee240_function_x2_coef") == 0) {
+         theoerr_FCCee240_function_x2_coef = value;
+    } else if (name.compare("theoerr_FCCee365_function_x0_coef") == 0) {
+         theoerr_FCCee365_function_x0_coef = value;
+    } else if (name.compare("theoerr_FCCee365_function_x1_coef") == 0) {
+         theoerr_FCCee365_function_x1_coef = value;
+    } else if (name.compare("theoerr_FCCee365_function_x2_coef") == 0) {
+         theoerr_FCCee365_function_x2_coef = value;
+
     } else
         NPbase::setParameter(name, value);
 }
@@ -3004,11 +3080,32 @@ bool NPSMEFTd6::setFlag(const std::string name, const bool value)
     } else if (name.compare("LoopH3d6Quad") == 0) {        
         FlagLoopH3d6Quad = value;
         res = true;
+    } else if (name.compare("LoopH3d6Quad_C1term") == 0) {        
+        FlagLoopH3d6Quad_C1term = value;
+        res = true;
+    } else if (name.compare("LoopH3d6Cubi") == 0) {        
+        FlagLoopH3d6Cubi = value;
+        res = true;
+    } else if (name.compare("LoopH3d6Full") == 0) {        
+        FlagLoopH3d6Full = value;
+        res = true;
     } else if (name.compare("RGEciLLA") == 0) {        
         FlagRGEciLLA = value;
         res = true;
     } else if (name.compare("MWinput") == 0) {        
         FlagMWinput = value;
+        res = true;
+    } else if (name.compare("LoopHd6NoSubleading") == 0) {
+        FlagLoopHd6NoSubleading = value;
+        res = true;
+    } else if (name.compare("HalfmueeZH") == 0) {
+        FlagHalfmueeZH = value;
+        res = true;
+    } else if (name.compare("LoopHd6noWFR") == 0) {
+        FlagLoopHd6noWFR = value;
+        res = true;
+    } else if (name.compare("UseKlamDependentUncertainties") == 0) {
+        FlagUseKlamDependentUncertainties = value;
         res = true;
     } else
         res = NPbase::setFlag(name, value);
@@ -5390,6 +5487,23 @@ double NPSMEFTd6::mueeHvv(const double sqrt_s) const
             //Add contributions that are quadratic in the effective coefficients
         mu +=  0.0;
         }
+
+        //Add new theoretical uncertaity and SMEFT/UV Model mismatch effect
+        if (!FlagUseKlamDependentUncertainties) {
+            mu += theoerr_FCCee240 + NPmismatch_FCCee240;
+        }
+        else {
+            mu += 
+                theoerr_FCCee240_function( 
+                    deltaG_hhhRatio() + 1, 
+                    theoerr_FCCee240_function_x2_coef,
+                    theoerr_FCCee240_function_x1_coef, 
+                    theoerr_FCCee240_function_x0_coef 
+                ) * theoerr_FCCee240 + 
+                NPmismatch_FCCee240_function( 
+                    deltaG_hhhRatio() + 1 
+                ) * NPmismatch_FCCee240;
+        }
           
     } else if (sqrt_s == 0.250) {
         
@@ -5482,6 +5596,23 @@ double NPSMEFTd6::mueeHvv(const double sqrt_s) const
         if (FlagQuadraticTerms) {
             //Add contributions that are quadratic in the effective coefficients
         mu +=  0.0;
+        }
+
+        //Add new theoretical uncertaity and SMEFT/UV Model mismatch effect
+        if (!FlagUseKlamDependentUncertainties) {
+            mu += theoerr_FCCee365 + NPmismatch_FCCee365;
+        }
+        else {
+            mu += 
+                theoerr_FCCee365_function( 
+                    deltaG_hhhRatio() + 1, 
+                    theoerr_FCCee365_function_x2_coef,
+                    theoerr_FCCee365_function_x1_coef, 
+                    theoerr_FCCee365_function_x0_coef 
+                ) * theoerr_FCCee365 + 
+                NPmismatch_FCCee365_function( 
+                    deltaG_hhhRatio() + 1
+                ) * NPmismatch_FCCee365;
         }
         
     } else if (sqrt_s == 0.380) {
@@ -8772,6 +8903,43 @@ double NPSMEFTd6::muZHpT250(const double sqrt_s) const
 }
 
 
+double NPSMEFTd6::theoerr_FCCee240_function(const double klam, const double a, const double b, const double c) const
+{
+    double err = 0.0;
+
+    err += a * klam*klam + b * klam + c; // Quadratic dependence on klam
+
+    return err;
+}
+
+
+double NPSMEFTd6::theoerr_FCCee365_function(const double klam, const double a, const double b, const double c) const
+{
+    double err = 0.0;
+
+    err += a * klam*klam + b * klam + c; // Quadratic dependence on klam
+
+    return err;
+}
+
+double NPSMEFTd6::NPmismatch_FCCee240_function(const double klam) const
+{
+    // Not implemented!
+    double err = 0.0;
+    return err;
+}
+
+
+double NPSMEFTd6::NPmismatch_FCCee365_function(const double klam) const
+{
+    // Not implemented!
+    double err = 0.0;
+    return err;
+}
+
+
+
+
 double NPSMEFTd6::mueeZH(const double sqrt_s) const
 {
     
@@ -8809,6 +8977,24 @@ double NPSMEFTd6::mueeZH(const double sqrt_s) const
         //Add contributions that are quadratic in the effective coefficients
         mu +=  0.0;
         }
+
+        //Add new theoretical uncertaity and SMEFT/UV Model mismatch effect
+        if (!FlagUseKlamDependentUncertainties) {
+            mu += theoerr_FCCee240 + NPmismatch_FCCee240;
+        }
+        else {
+            mu += 
+                theoerr_FCCee240_function( 
+                    deltaG_hhhRatio() + 1, 
+                    theoerr_FCCee240_function_x2_coef,
+                    theoerr_FCCee240_function_x1_coef, 
+                    theoerr_FCCee240_function_x0_coef 
+                ) * theoerr_FCCee240 + 
+                NPmismatch_FCCee240_function( 
+                    deltaG_hhhRatio() + 1 
+                ) * NPmismatch_FCCee240;
+        }
+
 
     } else if (sqrt_s == 0.250) {
         
@@ -8895,6 +9081,23 @@ double NPSMEFTd6::mueeZH(const double sqrt_s) const
         if (FlagQuadraticTerms) {
             //Add contributions that are quadratic in the effective coefficients
         mu +=  0.0;
+        }
+
+        //Add new theoretical uncertaity and SMEFT/UV Model mismatch effect
+        if (!FlagUseKlamDependentUncertainties) {
+            mu += theoerr_FCCee365 + NPmismatch_FCCee365;
+        }
+        else {
+            mu += 
+                theoerr_FCCee365_function( 
+                    deltaG_hhhRatio() + 1, 
+                    theoerr_FCCee365_function_x2_coef,
+                    theoerr_FCCee365_function_x1_coef, 
+                    theoerr_FCCee365_function_x0_coef 
+                ) * theoerr_FCCee365 + 
+                NPmismatch_FCCee365_function( 
+                    deltaG_hhhRatio() + 1
+                ) * NPmismatch_FCCee365;
         }
         
     } else if (sqrt_s == 0.380) {
@@ -9077,10 +9280,26 @@ double NPSMEFTd6::mueeZH(const double sqrt_s) const
     //Add intrinsic and parametric relative theory errors (free par). (Assume they are constant in energy.)
     mu += eeeZHint + eeeZHpar;
     
-//  Linear contribution from Higgs self-coupling
-    mu = mu + cLHd6*(C1 + 2.0*dZH1)*deltaG_hhhRatio();
-//  Quadratic contribution from Higgs self-coupling: add separately from FlagQuadraticTerms
-    mu = mu + cLHd6*cLH3d62*dZH2*deltaG_hhhRatio()*deltaG_hhhRatio();
+    if (!FlagLoopH3d6Full) {
+    //  Linear contribution from Higgs self-coupling
+        mu = mu + cLHd6*(C1 + 2.0*dZH1)*deltaG_hhhRatio();
+    //  Quadratic contribution from Higgs self-coupling: add separately from FlagQuadraticTerms
+        mu = mu + cLHd6*cLH3d62*dZH2*deltaG_hhhRatio()*deltaG_hhhRatio();
+
+    //  Quadratic contribution from Higgs self-coupling: C1 term not previously included
+        mu = mu + cLHd6*cLH3d62_C1term*(2*C1*dZH1)*deltaG_hhhRatio()*deltaG_hhhRatio();
+    //  Cubic contribution from Higgs self-coupling
+        mu = mu + cLHd6*cLH3d63*(4*dZH3 + C1*dZH2)*pow(deltaG_hhhRatio(), 3);
+
+        if (FlagHalfmueeZH) {
+            mu = (mu + 1) / 2.;
+        }
+    }
+    else {
+        mu = mu * (1 - dZH)/(1 - pow( (deltaG_hhhRatio()+1) , 2)*dZH);
+        mu = mu * (1 + C1*(deltaG_hhhRatio()+1) )/(1 + C1);
+    }
+
     
     if (mu < 0) return std::numeric_limits<double>::quiet_NaN();
     

@@ -1,0 +1,31 @@
+{
+	"InstallScripts" : 
+	[
+		"/jwd/HEPfit/build/cmake_install.cmake",
+		"/jwd/HEPfit/build/MonteCarlo/cmake_install.cmake",
+		"/jwd/HEPfit/build/ComputeObservables/cmake_install.cmake",
+		"/jwd/HEPfit/build/EventGeneration/cmake_install.cmake",
+		"/jwd/HEPfit/build/InputParser/cmake_install.cmake",
+		"/jwd/HEPfit/build/EW/cmake_install.cmake",
+		"/jwd/HEPfit/build/Flavour/cmake_install.cmake",
+		"/jwd/HEPfit/build/FlavourWilsonCoefficient/cmake_install.cmake",
+		"/jwd/HEPfit/build/LeptonFlavour/cmake_install.cmake",
+		"/jwd/HEPfit/build/NewPhysics/cmake_install.cmake",
+		"/jwd/HEPfit/build/Observables/cmake_install.cmake",
+		"/jwd/HEPfit/build/GeneralSUSY/cmake_install.cmake",
+		"/jwd/HEPfit/build/SUSY/cmake_install.cmake",
+		"/jwd/HEPfit/build/THDM/cmake_install.cmake",
+		"/jwd/HEPfit/build/THDMW/cmake_install.cmake",
+		"/jwd/HEPfit/build/GeneralTHDM/cmake_install.cmake",
+		"/jwd/HEPfit/build/GeorgiMachacek/cmake_install.cmake",
+		"/jwd/HEPfit/build/LeftRightSymmetricModel/cmake_install.cmake",
+		"/jwd/HEPfit/build/StandardModel/cmake_install.cmake",
+		"/jwd/HEPfit/build/LoopFunctions/cmake_install.cmake",
+		"/jwd/HEPfit/build/SUSYMassInsertion/cmake_install.cmake",
+		"/jwd/HEPfit/build/MFV/cmake_install.cmake",
+		"/jwd/HEPfit/build/pMSSM/cmake_install.cmake",
+		"/jwd/HEPfit/build/gslpp/cmake_install.cmake",
+		"/jwd/HEPfit/build/Analysis/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

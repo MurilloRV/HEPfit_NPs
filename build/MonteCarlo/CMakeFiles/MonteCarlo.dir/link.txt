@@ -1,0 +1,2 @@
+/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/ar qc libMonteCarlo.a CMakeFiles/MonteCarlo.dir/src/MonteCarlo.cpp.o CMakeFiles/MonteCarlo.dir/src/MonteCarloEngine.cpp.o
+/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/ranlib libMonteCarlo.a
