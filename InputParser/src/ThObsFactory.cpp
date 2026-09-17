@@ -637,6 +637,10 @@ ThObsFactory::ThObsFactory()
     obsThFactory["AuxObsNP30"] = boost::factory<AuxObsNP30*>();
 
     //-----  Higgs observables  ----------
+    
+    //-----  New Nuisance Parameters  -----
+    obsThFactory["NP_FCCee240_theo_unc"] = bind(boost::factory<NP_FCCee_theo_unc*>(), _1, sqrt_s_leptcoll_240);
+    obsThFactory["NP_FCCee365_theo_unc"] = bind(boost::factory<NP_FCCee_theo_unc*>(), _1, sqrt_s_leptcoll_365);
 
     //-----  Production cross sections (ratios with SM)  ----------
     obsThFactory["ggH"] = bind(boost::factory<muggH*>(), _1, sqrt_s_LHC8);
@@ -3724,7 +3728,7 @@ ThObsFactory::ThObsFactory()
     obsThFactory["epsilon3"] = boost::factory<Epsilon3*>();
     obsThFactory["epsilonb"] = boost::factory<Epsilonb*>();
     
-    
+
     //----- NPSMEFT6dtopquark  -----
     
     obsThFactory["C_phit"] = boost::factory<C_phit*>();

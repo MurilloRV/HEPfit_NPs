@@ -8,6 +8,19 @@
 #include "HiggsThObservables.h"
 #include "NPbase.h"
 
+//-----  New Nuisance Parameters  -----
+NP_FCCee_theo_unc::NP_FCCee_theo_unc(const StandardModel& SM_i, const double sqrt_s_i)
+: ThObservable(SM_i), sqrt_s(sqrt_s_i)
+{
+    if ((myNPbase = dynamic_cast<const NPbase*> (&SM)) == NULL)
+        throw std::runtime_error("NP_FCCee_theo_unc called with a class whose parent is not NPbase");
+}
+
+double NP_FCCee_theo_unc::computeThValue()
+{
+    return myNPbase->NP_FCCee_theo_unc(sqrt_s);
+}
+
 muggH::muggH(const StandardModel& SM_i, const double sqrt_s_i)
 : ThObservable(SM_i), sqrt_s(sqrt_s_i)
 {

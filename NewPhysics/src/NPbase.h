@@ -679,6 +679,18 @@ public:
     ////////////////////////////////////////////////////////////////////////
 
     /**
+     * @brief The new nuisance parameters, which are the newly estimated theoretical 
+     * uncertainties for the FCC-ee Higgs observables, based on the SMEFT approach.
+     * @param[in] sqrt_s the center-of-mass energy in TeV
+     * @return NP_FCCee_theo_unc
+     */
+    virtual double NP_FCCee_theo_unc(const double sqrt_s) const
+    {
+        return 0.0;
+    }
+    
+
+    /**
      * @brief The ratio @f$\mu_{ggH}@f$ between the gluon-gluon fusion Higgs
      * production cross-section in the current model and in the Standard Model.
      * @param[in] sqrt_s the center-of-mass energy in TeV
@@ -2148,7 +2160,7 @@ public:
     {
         return 1.0;
     }
-    
+
 
     ////////////////////////////////////////////////////////////////////////
       

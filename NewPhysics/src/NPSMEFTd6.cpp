@@ -4692,6 +4692,53 @@ gslpp::complex NPSMEFTd6::AHZga_W(const double tau, const double lambda) const
     return sqrt(trueSM.cW2()) * tmp;
 }
 
+
+
+//-----  New Nuisance Parameters  -----
+double NPSMEFTd6::NP_FCCee_theo_unc(const double sqrt_s) const
+{
+    double err = 0;
+
+    if (sqrt_s == 0.240) {
+        if (!FlagUseKlamDependentUncertainties) {
+            err += theoerr_FCCee240 + NPmismatch_FCCee240;
+        }
+        else {
+            err += 
+                theoerr_FCCee240_function( 
+                    deltaG_hhhRatio() + 1, 
+                    theoerr_FCCee240_function_x2_coef,
+                    theoerr_FCCee240_function_x1_coef, 
+                    theoerr_FCCee240_function_x0_coef 
+                ) * theoerr_FCCee240 + 
+                NPmismatch_FCCee240_function( 
+                    deltaG_hhhRatio() + 1
+                ) * NPmismatch_FCCee240;
+        }
+        
+    } else if (sqrt_s == 0.365) {
+        if (!FlagUseKlamDependentUncertainties) {
+            err += theoerr_FCCee365 + NPmismatch_FCCee365;
+        }
+        else {
+            err += 
+                theoerr_FCCee365_function( 
+                    deltaG_hhhRatio() + 1, 
+                    theoerr_FCCee365_function_x2_coef,
+                    theoerr_FCCee365_function_x1_coef, 
+                    theoerr_FCCee365_function_x0_coef 
+                ) * theoerr_FCCee365 + 
+                NPmismatch_FCCee365_function( 
+                    deltaG_hhhRatio() + 1
+                ) * NPmismatch_FCCee365;
+        }
+    }
+
+    return err;
+}
+
+
+
 double NPSMEFTd6::muggH(const double sqrt_s) const
 {
     
@@ -5489,21 +5536,7 @@ double NPSMEFTd6::mueeHvv(const double sqrt_s) const
         }
 
         //Add new theoretical uncertaity and SMEFT/UV Model mismatch effect
-        if (!FlagUseKlamDependentUncertainties) {
-            mu += theoerr_FCCee240 + NPmismatch_FCCee240;
-        }
-        else {
-            mu += 
-                theoerr_FCCee240_function( 
-                    deltaG_hhhRatio() + 1, 
-                    theoerr_FCCee240_function_x2_coef,
-                    theoerr_FCCee240_function_x1_coef, 
-                    theoerr_FCCee240_function_x0_coef 
-                ) * theoerr_FCCee240 + 
-                NPmismatch_FCCee240_function( 
-                    deltaG_hhhRatio() + 1 
-                ) * NPmismatch_FCCee240;
-        }
+        mu += NP_FCCee_theo_unc(sqrt_s);
           
     } else if (sqrt_s == 0.250) {
         
@@ -5599,21 +5632,7 @@ double NPSMEFTd6::mueeHvv(const double sqrt_s) const
         }
 
         //Add new theoretical uncertaity and SMEFT/UV Model mismatch effect
-        if (!FlagUseKlamDependentUncertainties) {
-            mu += theoerr_FCCee365 + NPmismatch_FCCee365;
-        }
-        else {
-            mu += 
-                theoerr_FCCee365_function( 
-                    deltaG_hhhRatio() + 1, 
-                    theoerr_FCCee365_function_x2_coef,
-                    theoerr_FCCee365_function_x1_coef, 
-                    theoerr_FCCee365_function_x0_coef 
-                ) * theoerr_FCCee365 + 
-                NPmismatch_FCCee365_function( 
-                    deltaG_hhhRatio() + 1
-                ) * NPmismatch_FCCee365;
-        }
+        mu += NP_FCCee_theo_unc(sqrt_s);
         
     } else if (sqrt_s == 0.380) {
         
@@ -8979,21 +8998,7 @@ double NPSMEFTd6::mueeZH(const double sqrt_s) const
         }
 
         //Add new theoretical uncertaity and SMEFT/UV Model mismatch effect
-        if (!FlagUseKlamDependentUncertainties) {
-            mu += theoerr_FCCee240 + NPmismatch_FCCee240;
-        }
-        else {
-            mu += 
-                theoerr_FCCee240_function( 
-                    deltaG_hhhRatio() + 1, 
-                    theoerr_FCCee240_function_x2_coef,
-                    theoerr_FCCee240_function_x1_coef, 
-                    theoerr_FCCee240_function_x0_coef 
-                ) * theoerr_FCCee240 + 
-                NPmismatch_FCCee240_function( 
-                    deltaG_hhhRatio() + 1 
-                ) * NPmismatch_FCCee240;
-        }
+        mu += NP_FCCee_theo_unc(sqrt_s);
 
 
     } else if (sqrt_s == 0.250) {
@@ -9084,21 +9089,7 @@ double NPSMEFTd6::mueeZH(const double sqrt_s) const
         }
 
         //Add new theoretical uncertaity and SMEFT/UV Model mismatch effect
-        if (!FlagUseKlamDependentUncertainties) {
-            mu += theoerr_FCCee365 + NPmismatch_FCCee365;
-        }
-        else {
-            mu += 
-                theoerr_FCCee365_function( 
-                    deltaG_hhhRatio() + 1, 
-                    theoerr_FCCee365_function_x2_coef,
-                    theoerr_FCCee365_function_x1_coef, 
-                    theoerr_FCCee365_function_x0_coef 
-                ) * theoerr_FCCee365 + 
-                NPmismatch_FCCee365_function( 
-                    deltaG_hhhRatio() + 1
-                ) * NPmismatch_FCCee365;
-        }
+        mu += NP_FCCee_theo_unc(sqrt_s);
         
     } else if (sqrt_s == 0.380) {
         

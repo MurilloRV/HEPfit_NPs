@@ -33,7 +33,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -43,7 +43,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/bin/uname"
       - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/sbin/uname"
@@ -58,7 +57,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/uname"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/uname"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/uname"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/uname"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/uname"
       - "/usr/lib64/ccache/uname"
       - "/usr/local/cuda/bin/uname"
       - "/usr/sue/bin/uname"
@@ -66,6 +65,7 @@ events:
     found: "/bin/uname"
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
@@ -78,7 +78,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -88,7 +88,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "message-v1"
@@ -96,7 +95,7 @@ events:
       - "/jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:33 (project)"
     message: |
-      The system is: Linux - 4.18.0-553.97.1.el8_10.x86_64 - x86_64
+      The system is: Linux - 4.18.0-553.162.1.el8_10.x86_64 - x86_64
   -
     kind: "find-v1"
     backtrace:
@@ -131,7 +130,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -141,7 +140,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/bin/gmake"
       - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/sbin/gmake"
@@ -156,7 +154,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/gmake"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gmake"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gmake"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/gmake"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/gmake"
       - "/usr/lib64/ccache/gmake"
       - "/usr/local/cuda/bin/gmake"
       - "/usr/sue/bin/gmake"
@@ -164,6 +162,7 @@ events:
     found: "/bin/gmake"
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
@@ -176,7 +175,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -186,7 +185,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -221,7 +219,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -231,10 +229,10 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc"
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
@@ -247,7 +245,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -257,7 +255,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -287,6 +284,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -298,7 +296,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -308,7 +306,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "message-v1"
@@ -362,7 +359,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -372,7 +369,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/ar"
       - "/jwd/python_venv_py38/bin/ar"
@@ -385,6 +381,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -396,7 +393,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -406,7 +403,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -438,7 +434,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -448,7 +444,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/ranlib"
       - "/jwd/python_venv_py38/bin/ranlib"
@@ -461,6 +456,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -472,7 +468,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -482,7 +478,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -514,7 +509,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -524,7 +519,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/strip"
       - "/jwd/python_venv_py38/bin/strip"
@@ -537,6 +531,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -548,7 +543,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -558,7 +553,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -590,7 +584,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -600,7 +594,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/ld"
       - "/jwd/python_venv_py38/bin/ld"
@@ -613,6 +606,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -624,7 +618,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -634,7 +628,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -666,7 +659,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -676,7 +669,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/nm"
       - "/jwd/python_venv_py38/bin/nm"
@@ -689,6 +681,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -700,7 +693,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -710,7 +703,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -742,7 +734,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -752,7 +744,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/objdump"
       - "/jwd/python_venv_py38/bin/objdump"
@@ -765,6 +756,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -776,7 +768,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -786,7 +778,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -818,7 +809,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -828,7 +819,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/objcopy"
       - "/jwd/python_venv_py38/bin/objcopy"
@@ -841,6 +831,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -852,7 +843,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -862,7 +853,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -894,7 +884,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -904,7 +894,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/readelf"
       - "/jwd/python_venv_py38/bin/readelf"
@@ -917,6 +906,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -928,7 +918,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -938,7 +928,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -970,7 +959,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -980,7 +969,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/dlltool"
       - "/jwd/python_venv_py38/bin/dlltool"
@@ -992,7 +980,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/dlltool"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/dlltool"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/dlltool"
       - "/usr/lib64/ccache/dlltool"
       - "/usr/local/cuda/bin/dlltool"
       - "/usr/sue/bin/dlltool"
@@ -1002,10 +990,10 @@ events:
       - "/usr/local/sbin/dlltool"
       - "/usr/sbin/dlltool"
       - "/sbin/dlltool"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/dlltool"
     found: false
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
@@ -1018,7 +1006,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -1028,7 +1016,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -1060,7 +1047,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -1070,7 +1057,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/addr2line"
       - "/jwd/python_venv_py38/bin/addr2line"
@@ -1083,6 +1069,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -1094,7 +1081,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -1104,7 +1091,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -1136,7 +1122,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -1146,7 +1132,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/tapi"
       - "/jwd/python_venv_py38/bin/tapi"
@@ -1158,7 +1143,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/tapi"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/tapi"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/tapi"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/tapi"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/tapi"
       - "/usr/lib64/ccache/tapi"
       - "/usr/local/cuda/bin/tapi"
       - "/usr/sue/bin/tapi"
@@ -1168,10 +1153,10 @@ events:
       - "/usr/local/sbin/tapi"
       - "/usr/sbin/tapi"
       - "/sbin/tapi"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/tapi"
     found: false
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
@@ -1184,7 +1169,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -1194,7 +1179,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -1229,7 +1213,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -1239,7 +1223,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ar-11.3"
       - "/jwd/python_venv_py38/bin/gcc-ar-11.3"
@@ -1251,7 +1234,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/gcc-ar-11.3"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-11.3"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-11.3"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/gcc-ar-11.3"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/gcc-ar-11.3"
       - "/usr/lib64/ccache/gcc-ar-11.3"
       - "/usr/local/cuda/bin/gcc-ar-11.3"
       - "/usr/sue/bin/gcc-ar-11.3"
@@ -1261,7 +1244,6 @@ events:
       - "/usr/local/sbin/gcc-ar-11.3"
       - "/usr/sbin/gcc-ar-11.3"
       - "/sbin/gcc-ar-11.3"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ar-11.3"
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ar-11"
       - "/jwd/python_venv_py38/bin/gcc-ar-11"
       - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin/gcc-ar-11"
@@ -1272,7 +1254,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/gcc-ar-11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-11"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/gcc-ar-11"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/gcc-ar-11"
       - "/usr/lib64/ccache/gcc-ar-11"
       - "/usr/local/cuda/bin/gcc-ar-11"
       - "/usr/sue/bin/gcc-ar-11"
@@ -1282,7 +1264,6 @@ events:
       - "/usr/local/sbin/gcc-ar-11"
       - "/usr/sbin/gcc-ar-11"
       - "/sbin/gcc-ar-11"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ar-11"
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ar11"
       - "/jwd/python_venv_py38/bin/gcc-ar11"
       - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin/gcc-ar11"
@@ -1293,7 +1274,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/gcc-ar11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar11"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/gcc-ar11"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/gcc-ar11"
       - "/usr/lib64/ccache/gcc-ar11"
       - "/usr/local/cuda/bin/gcc-ar11"
       - "/usr/sue/bin/gcc-ar11"
@@ -1303,10 +1284,10 @@ events:
       - "/usr/local/sbin/gcc-ar11"
       - "/usr/sbin/gcc-ar11"
       - "/sbin/gcc-ar11"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ar11"
     found: "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ar"
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
@@ -1319,7 +1300,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -1329,7 +1310,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -1364,7 +1344,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -1374,7 +1354,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ranlib-11.3"
       - "/jwd/python_venv_py38/bin/gcc-ranlib-11.3"
@@ -1386,7 +1365,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/gcc-ranlib-11.3"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-11.3"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-11.3"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/gcc-ranlib-11.3"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/gcc-ranlib-11.3"
       - "/usr/lib64/ccache/gcc-ranlib-11.3"
       - "/usr/local/cuda/bin/gcc-ranlib-11.3"
       - "/usr/sue/bin/gcc-ranlib-11.3"
@@ -1396,7 +1375,6 @@ events:
       - "/usr/local/sbin/gcc-ranlib-11.3"
       - "/usr/sbin/gcc-ranlib-11.3"
       - "/sbin/gcc-ranlib-11.3"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ranlib-11.3"
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ranlib-11"
       - "/jwd/python_venv_py38/bin/gcc-ranlib-11"
       - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin/gcc-ranlib-11"
@@ -1407,7 +1385,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/gcc-ranlib-11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-11"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/gcc-ranlib-11"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/gcc-ranlib-11"
       - "/usr/lib64/ccache/gcc-ranlib-11"
       - "/usr/local/cuda/bin/gcc-ranlib-11"
       - "/usr/sue/bin/gcc-ranlib-11"
@@ -1417,7 +1395,6 @@ events:
       - "/usr/local/sbin/gcc-ranlib-11"
       - "/usr/sbin/gcc-ranlib-11"
       - "/sbin/gcc-ranlib-11"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ranlib-11"
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ranlib11"
       - "/jwd/python_venv_py38/bin/gcc-ranlib11"
       - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin/gcc-ranlib11"
@@ -1428,7 +1405,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/gcc-ranlib11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib11"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/gcc-ranlib11"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/gcc-ranlib11"
       - "/usr/lib64/ccache/gcc-ranlib11"
       - "/usr/local/cuda/bin/gcc-ranlib11"
       - "/usr/sue/bin/gcc-ranlib11"
@@ -1438,10 +1415,10 @@ events:
       - "/usr/local/sbin/gcc-ranlib11"
       - "/usr/sbin/gcc-ranlib11"
       - "/sbin/gcc-ranlib11"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ranlib11"
     found: "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ranlib"
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
@@ -1454,7 +1431,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -1464,7 +1441,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -1491,6 +1467,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -1502,7 +1479,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -1512,7 +1489,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -1542,6 +1518,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -1553,7 +1530,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -1563,7 +1540,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "message-v1"
@@ -1620,7 +1596,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -1630,7 +1606,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ar-11.3"
       - "/jwd/python_venv_py38/bin/gcc-ar-11.3"
@@ -1642,7 +1617,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/gcc-ar-11.3"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-11.3"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-11.3"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/gcc-ar-11.3"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/gcc-ar-11.3"
       - "/usr/lib64/ccache/gcc-ar-11.3"
       - "/usr/local/cuda/bin/gcc-ar-11.3"
       - "/usr/sue/bin/gcc-ar-11.3"
@@ -1652,7 +1627,6 @@ events:
       - "/usr/local/sbin/gcc-ar-11.3"
       - "/usr/sbin/gcc-ar-11.3"
       - "/sbin/gcc-ar-11.3"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ar-11.3"
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ar-11"
       - "/jwd/python_venv_py38/bin/gcc-ar-11"
       - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin/gcc-ar-11"
@@ -1663,7 +1637,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/gcc-ar-11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-11"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/gcc-ar-11"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/gcc-ar-11"
       - "/usr/lib64/ccache/gcc-ar-11"
       - "/usr/local/cuda/bin/gcc-ar-11"
       - "/usr/sue/bin/gcc-ar-11"
@@ -1673,7 +1647,6 @@ events:
       - "/usr/local/sbin/gcc-ar-11"
       - "/usr/sbin/gcc-ar-11"
       - "/sbin/gcc-ar-11"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ar-11"
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ar11"
       - "/jwd/python_venv_py38/bin/gcc-ar11"
       - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin/gcc-ar11"
@@ -1684,7 +1657,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/gcc-ar11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar11"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/gcc-ar11"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/gcc-ar11"
       - "/usr/lib64/ccache/gcc-ar11"
       - "/usr/local/cuda/bin/gcc-ar11"
       - "/usr/sue/bin/gcc-ar11"
@@ -1694,10 +1667,10 @@ events:
       - "/usr/local/sbin/gcc-ar11"
       - "/usr/sbin/gcc-ar11"
       - "/sbin/gcc-ar11"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ar11"
     found: "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ar"
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
@@ -1710,7 +1683,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -1720,7 +1693,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "find-v1"
@@ -1755,7 +1727,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -1765,7 +1737,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ranlib-11.3"
       - "/jwd/python_venv_py38/bin/gcc-ranlib-11.3"
@@ -1777,7 +1748,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/gcc-ranlib-11.3"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-11.3"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-11.3"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/gcc-ranlib-11.3"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/gcc-ranlib-11.3"
       - "/usr/lib64/ccache/gcc-ranlib-11.3"
       - "/usr/local/cuda/bin/gcc-ranlib-11.3"
       - "/usr/sue/bin/gcc-ranlib-11.3"
@@ -1787,7 +1758,6 @@ events:
       - "/usr/local/sbin/gcc-ranlib-11.3"
       - "/usr/sbin/gcc-ranlib-11.3"
       - "/sbin/gcc-ranlib-11.3"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ranlib-11.3"
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ranlib-11"
       - "/jwd/python_venv_py38/bin/gcc-ranlib-11"
       - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin/gcc-ranlib-11"
@@ -1798,7 +1768,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/gcc-ranlib-11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-11"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/gcc-ranlib-11"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/gcc-ranlib-11"
       - "/usr/lib64/ccache/gcc-ranlib-11"
       - "/usr/local/cuda/bin/gcc-ranlib-11"
       - "/usr/sue/bin/gcc-ranlib-11"
@@ -1808,7 +1778,6 @@ events:
       - "/usr/local/sbin/gcc-ranlib-11"
       - "/usr/sbin/gcc-ranlib-11"
       - "/sbin/gcc-ranlib-11"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ranlib-11"
       - "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ranlib11"
       - "/jwd/python_venv_py38/bin/gcc-ranlib11"
       - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin/gcc-ranlib11"
@@ -1819,7 +1788,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/gcc-ranlib11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib11"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib11"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/gcc-ranlib11"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/gcc-ranlib11"
       - "/usr/lib64/ccache/gcc-ranlib11"
       - "/usr/local/cuda/bin/gcc-ranlib11"
       - "/usr/sue/bin/gcc-ranlib11"
@@ -1829,10 +1798,10 @@ events:
       - "/usr/local/sbin/gcc-ranlib11"
       - "/usr/sbin/gcc-ranlib11"
       - "/sbin/gcc-ranlib11"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ranlib11"
     found: "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc-ranlib"
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
@@ -1845,7 +1814,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -1855,7 +1824,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "./HEPfit"
   -
     kind: "try_compile-v1"
@@ -1866,8 +1834,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-KuStwI"
-      binary: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-KuStwI"
+      source: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-TQV8p3"
+      binary: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-TQV8p3"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1875,13 +1843,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-KuStwI'
+        Change Dir: '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-TQV8p3'
         
-        Run Build Command(s): /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_ea2f1/fast
-        /bin/gmake  -f CMakeFiles/cmTC_ea2f1.dir/build.make CMakeFiles/cmTC_ea2f1.dir/build
-        gmake[1]: Entering directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-KuStwI'
-        Building C object CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o
-        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc   -v -o CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o -c /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_dc114/fast
+        /bin/gmake  -f CMakeFiles/cmTC_dc114.dir/build.make CMakeFiles/cmTC_dc114.dir/build
+        gmake[1]: Entering directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-TQV8p3'
+        Building C object CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o
+        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc   -v -o CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o -c /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc
         Target: x86_64-pc-linux-gnu
@@ -1889,17 +1857,19 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.3.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ea2f1.dir/'
-         /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/cc1 -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/include /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ea2f1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /jwd/tmp/ccerstsA.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc114.dir/'
+         /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/cc1 -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/include /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_dc114.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /jwd/tmp/cccxgwCk.s
         GNU C17 (GCC) version 11.3.0 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 11.3.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/include"
         ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../x86_64-pc-linux-gnu/include"
         ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.3.0/include"
         ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../include"
         ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.3.0/include-fixed"
         ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../x86_64-pc-linux-gnu/include"
+        ignoring duplicate directory "/jwd/bat_mod/BAT-1.0.0/build/include"
         #include "..." search starts here:
         #include <...> search starts here:
          /jwd/bat_mod/BAT-1.0.0/build/include
@@ -1916,14 +1886,14 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: b9b1654bdb907b93eb361b22a60826f7
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ea2f1.dir/'
-         as -v --64 -o CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o /jwd/tmp/ccerstsA.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc114.dir/'
+         as -v --64 -o CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o /jwd/tmp/cccxgwCk.s
         GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/
         LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_ea2f1
-        /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea2f1.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_dc114
+        /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc114.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc
         COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper
@@ -1934,14 +1904,14 @@ events:
         gcc version 11.3.0 (GCC) 
         COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/
         LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ea2f1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ea2f1.'
-         /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccwoUH1Z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ea2f1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dc114' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dc114.'
+         /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccFeONP3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_dc114 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o
         collect2 version 11.3.0
-        /cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/ld -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccwoUH1Z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ea2f1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o
+        /cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/ld -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccFeONP3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_dc114 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o
         GNU ld (GNU Binutils) 2.40
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ea2f1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ea2f1.'
-        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc  -v -Wl,-v CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o -o cmTC_ea2f1
-        gmake[1]: Leaving directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-KuStwI'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dc114' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dc114.'
+        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc  -v -Wl,-v CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o -o cmTC_dc114
+        gmake[1]: Leaving directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-TQV8p3'
         
       exitCode: 0
   -
@@ -1984,13 +1954,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-KuStwI']
+        ignore line: [Change Dir: '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-TQV8p3']
         ignore line: []
-        ignore line: [Run Build Command(s): /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_ea2f1/fast]
-        ignore line: [/bin/gmake  -f CMakeFiles/cmTC_ea2f1.dir/build.make CMakeFiles/cmTC_ea2f1.dir/build]
-        ignore line: [gmake[1]: Entering directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-KuStwI']
-        ignore line: [Building C object CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc   -v -o CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o -c /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_dc114/fast]
+        ignore line: [/bin/gmake  -f CMakeFiles/cmTC_dc114.dir/build.make CMakeFiles/cmTC_dc114.dir/build]
+        ignore line: [gmake[1]: Entering directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-TQV8p3']
+        ignore line: [Building C object CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc   -v -o CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o -c /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -1998,17 +1968,19 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.3.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ea2f1.dir/']
-        ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/cc1 -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/include /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ea2f1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /jwd/tmp/ccerstsA.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc114.dir/']
+        ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/cc1 -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/include /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_dc114.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /jwd/tmp/cccxgwCk.s]
         ignore line: [GNU C17 (GCC) version 11.3.0 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/include"]
         ignore line: [ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../x86_64-pc-linux-gnu/include"]
         ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.3.0/include"]
         ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../include"]
         ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.3.0/include-fixed"]
         ignore line: [ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/jwd/bat_mod/BAT-1.0.0/build/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
         ignore line: [ /jwd/bat_mod/BAT-1.0.0/build/include]
@@ -2025,14 +1997,14 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: b9b1654bdb907b93eb361b22a60826f7]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ea2f1.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o /jwd/tmp/ccerstsA.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc114.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o /jwd/tmp/cccxgwCk.s]
         ignore line: [GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/]
         ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_ea2f1]
-        ignore line: [/jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea2f1.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_dc114]
+        ignore line: [/jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc114.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper]
@@ -2043,13 +2015,13 @@ events:
         ignore line: [gcc version 11.3.0 (GCC) ]
         ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/]
         ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ea2f1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ea2f1.']
-        link line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccwoUH1Z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ea2f1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dc114' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dc114.']
+        link line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccFeONP3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_dc114 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o]
           arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/jwd/tmp/ccwoUH1Z.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/jwd/tmp/ccFeONP3.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -2063,7 +2035,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_ea2f1] ==> ignore
+          arg [cmTC_dc114] ==> ignore
           arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
           arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
           arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o] ==> obj [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o]
@@ -2074,7 +2046,7 @@ events:
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../..] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -2089,7 +2061,7 @@ events:
           arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o] ==> obj [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o]
           arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
         ignore line: [collect2 version 11.3.0]
-        ignore line: [/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/ld -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccwoUH1Z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ea2f1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_ea2f1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o]
+        ignore line: [/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/ld -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccFeONP3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_dc114 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_dc114.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o]
         linker tool for 'C': /cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/ld
         collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
         collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
@@ -2127,8 +2099,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-mUvBFS"
-      binary: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-mUvBFS"
+      source: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-QYjOR2"
+      binary: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-QYjOR2"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -2137,13 +2109,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-mUvBFS'
+        Change Dir: '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-QYjOR2'
         
-        Run Build Command(s): /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_f7c46/fast
-        /bin/gmake  -f CMakeFiles/cmTC_f7c46.dir/build.make CMakeFiles/cmTC_f7c46.dir/build
-        gmake[1]: Entering directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-mUvBFS'
-        Building CXX object CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o
-        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++   -v -o CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o -c /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_b9419/fast
+        /bin/gmake  -f CMakeFiles/cmTC_b9419.dir/build.make CMakeFiles/cmTC_b9419.dir/build
+        gmake[1]: Entering directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-QYjOR2'
+        Building CXX object CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o
+        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++   -v -o CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o -c /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++
         Target: x86_64-pc-linux-gnu
@@ -2151,12 +2123,13 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.3.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7c46.dir/'
-         /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/cc1plus -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/include -D_GNU_SOURCE /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f7c46.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /jwd/tmp/cc0jmxLj.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b9419.dir/'
+         /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/cc1plus -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/include -D_GNU_SOURCE /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b9419.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /jwd/tmp/cclETpDq.s
         GNU C++17 (GCC) version 11.3.0 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 11.3.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/include"
         ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../x86_64-pc-linux-gnu/include"
         ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0"
         ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0/x86_64-pc-linux-gnu"
@@ -2165,6 +2138,7 @@ events:
         ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../include"
         ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.3.0/include-fixed"
         ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../x86_64-pc-linux-gnu/include"
+        ignoring duplicate directory "/jwd/bat_mod/BAT-1.0.0/build/include"
         #include "..." search starts here:
         #include <...> search starts here:
          /jwd/bat_mod/BAT-1.0.0/build/include
@@ -2184,14 +2158,14 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 149cc3b6783ebb4a4f2767826976bcde
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7c46.dir/'
-         as -v --64 -o CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o /jwd/tmp/cc0jmxLj.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b9419.dir/'
+         as -v --64 -o CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o /jwd/tmp/cclETpDq.s
         GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/
         LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_f7c46
-        /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7c46.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_b9419
+        /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9419.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++
         COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper
@@ -2202,14 +2176,14 @@ events:
         gcc version 11.3.0 (GCC) 
         COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/
         LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7c46' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f7c46.'
-         /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccYEStpx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f7c46 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b9419' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b9419.'
+         /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccVUum13.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b9419 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o
         collect2 version 11.3.0
-        /cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/ld -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccYEStpx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f7c46 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o
+        /cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/ld -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccVUum13.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b9419 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o
         GNU ld (GNU Binutils) 2.40
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7c46' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f7c46.'
-        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++  -v -Wl,-v CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f7c46
-        gmake[1]: Leaving directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-mUvBFS'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b9419' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b9419.'
+        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++  -v -Wl,-v CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b9419
+        gmake[1]: Leaving directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-QYjOR2'
         
       exitCode: 0
   -
@@ -2258,13 +2232,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-mUvBFS']
+        ignore line: [Change Dir: '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-QYjOR2']
         ignore line: []
-        ignore line: [Run Build Command(s): /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_f7c46/fast]
-        ignore line: [/bin/gmake  -f CMakeFiles/cmTC_f7c46.dir/build.make CMakeFiles/cmTC_f7c46.dir/build]
-        ignore line: [gmake[1]: Entering directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-mUvBFS']
-        ignore line: [Building CXX object CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++   -v -o CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o -c /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_b9419/fast]
+        ignore line: [/bin/gmake  -f CMakeFiles/cmTC_b9419.dir/build.make CMakeFiles/cmTC_b9419.dir/build]
+        ignore line: [gmake[1]: Entering directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-QYjOR2']
+        ignore line: [Building CXX object CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++   -v -o CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o -c /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -2272,12 +2246,13 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.3.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7c46.dir/']
-        ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/cc1plus -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/include -D_GNU_SOURCE /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f7c46.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /jwd/tmp/cc0jmxLj.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b9419.dir/']
+        ignore line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/cc1plus -quiet -v -iprefix /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/ -isystem /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/include -D_GNU_SOURCE /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b9419.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /jwd/tmp/cclETpDq.s]
         ignore line: [GNU C++17 (GCC) version 11.3.0 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/include"]
         ignore line: [ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../x86_64-pc-linux-gnu/include"]
         ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0"]
         ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../include/c++/11.3.0/x86_64-pc-linux-gnu"]
@@ -2286,6 +2261,7 @@ events:
         ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../include"]
         ignore line: [ignoring duplicate directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.3.0/include-fixed"]
         ignore line: [ignoring nonexistent directory "/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/jwd/bat_mod/BAT-1.0.0/build/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
         ignore line: [ /jwd/bat_mod/BAT-1.0.0/build/include]
@@ -2305,14 +2281,14 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 149cc3b6783ebb4a4f2767826976bcde]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7c46.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o /jwd/tmp/cc0jmxLj.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b9419.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o /jwd/tmp/cclETpDq.s]
         ignore line: [GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/]
         ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_f7c46]
-        ignore line: [/jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7c46.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_b9419]
+        ignore line: [/jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9419.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++]
         ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper]
@@ -2323,13 +2299,13 @@ events:
         ignore line: [gcc version 11.3.0 (GCC) ]
         ignore line: [COMPILER_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/]
         ignore line: [LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7c46' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f7c46.']
-        link line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccYEStpx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f7c46 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b9419' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b9419.']
+        link line: [ /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2 -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccVUum13.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b9419 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o]
           arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/jwd/tmp/ccYEStpx.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/jwd/tmp/ccVUum13.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -2343,7 +2319,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_f7c46] ==> ignore
+          arg [cmTC_b9419] ==> ignore
           arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
           arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
           arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o] ==> obj [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o]
@@ -2354,7 +2330,7 @@ events:
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../..] ==> dir [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -2365,7 +2341,7 @@ events:
           arg [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o] ==> obj [/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o]
           arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
         ignore line: [collect2 version 11.3.0]
-        ignore line: [/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/ld -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccYEStpx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f7c46 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_f7c46.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o]
+        ignore line: [/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/ld -plugin /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/jwd/tmp/ccVUum13.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b9419 /lib/../lib64/crt1.o /lib/../lib64/crti.o /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtbegin.o -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/../../.. -v CMakeFiles/cmTC_b9419.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/../lib/gcc/x86_64-pc-linux-gnu/11.3.0/crtend.o /lib/../lib64/crtn.o]
         linker tool for 'CXX': /cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/ld
         collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
         collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
@@ -2425,7 +2401,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -2435,7 +2411,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -2456,6 +2431,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -2467,7 +2443,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -2477,7 +2453,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/jwd/HEPfit/build/HEPfit"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2520,7 +2495,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/local/bin/"
@@ -2529,7 +2504,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -2548,6 +2522,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -2559,7 +2534,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -2569,7 +2544,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/jwd/HEPfit/build/HEPfit"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2613,7 +2587,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -2623,7 +2597,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -2651,6 +2624,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -2662,7 +2636,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -2672,7 +2646,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/jwd/HEPfit/build/HEPfit"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2714,7 +2687,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -2724,7 +2697,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -2752,6 +2724,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -2763,7 +2736,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -2773,7 +2746,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/jwd/HEPfit/build/HEPfit"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2818,7 +2790,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -2828,7 +2800,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -2856,6 +2827,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -2867,7 +2839,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -2877,7 +2849,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/jwd/HEPfit/build/HEPfit"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2951,9 +2922,9 @@ events:
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/sbin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/bin/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/sbin/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/bin/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/sbin/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/bin/"
       - "/usr/lib64/ccache/sbin/"
       - "/usr/lib64/ccache/"
@@ -2981,9 +2952,6 @@ events:
       - "/sbin/bin/"
       - "/sbin/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/bin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/usr/local/bin/bin/"
       - "/usr/local/bin/sbin/"
       - "/usr/local/bin/"
@@ -3060,6 +3028,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -3071,7 +3040,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -3081,7 +3050,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/jwd/HEPfit/build/HEPfit"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3138,6 +3106,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -3149,7 +3118,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -3159,7 +3128,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/jwd/HEPfit/build/HEPfit"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3211,7 +3179,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/local/bin/"
@@ -3220,7 +3188,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -3238,6 +3205,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -3249,7 +3217,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -3259,7 +3227,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/jwd/HEPfit/build/HEPfit"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3305,7 +3272,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -3315,7 +3282,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -3336,6 +3302,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -3347,7 +3314,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -3357,7 +3324,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/jwd/HEPfit/build/HEPfit"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3379,8 +3345,8 @@ events:
       - "CMakeLists.txt:244 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-2Ltgnd"
-      binary: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-2Ltgnd"
+      source: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-M3g8QK"
+      binary: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-M3g8QK"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -3388,17 +3354,17 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-2Ltgnd'
+        Change Dir: '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-M3g8QK'
         
-        Run Build Command(s): /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_40abe/fast
-        /bin/gmake  -f CMakeFiles/cmTC_40abe.dir/build.make CMakeFiles/cmTC_40abe.dir/build
-        gmake[1]: Entering directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-2Ltgnd'
-        Building C object CMakeFiles/cmTC_40abe.dir/test_mpi.c.o
-        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc  -isystem /cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/include  -o CMakeFiles/cmTC_40abe.dir/test_mpi.c.o -c /jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-2Ltgnd/test_mpi.c
-        Linking C executable cmTC_40abe
-        /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40abe.dir/link.txt --verbose=1
-        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc -Wl,-rpath -Wl,/cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/lib -Wl,--enable-new-dtags -L/cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/lib CMakeFiles/cmTC_40abe.dir/test_mpi.c.o -o cmTC_40abe  -Wl,-rpath,/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib/libmpi.so
-        gmake[1]: Leaving directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-2Ltgnd'
+        Run Build Command(s): /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_747f7/fast
+        /bin/gmake  -f CMakeFiles/cmTC_747f7.dir/build.make CMakeFiles/cmTC_747f7.dir/build
+        gmake[1]: Entering directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-M3g8QK'
+        Building C object CMakeFiles/cmTC_747f7.dir/test_mpi.c.o
+        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc  -isystem /cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/include  -o CMakeFiles/cmTC_747f7.dir/test_mpi.c.o -c /jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-M3g8QK/test_mpi.c
+        Linking C executable cmTC_747f7
+        /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_747f7.dir/link.txt --verbose=1
+        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/gcc -Wl,-rpath -Wl,/cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/lib -Wl,--enable-new-dtags -L/cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/lib CMakeFiles/cmTC_747f7.dir/test_mpi.c.o -o cmTC_747f7  -Wl,-rpath,/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib/libmpi.so
+        gmake[1]: Leaving directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-M3g8QK'
         
       exitCode: 0
   -
@@ -3459,6 +3425,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -3470,7 +3437,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -3480,7 +3447,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/jwd/HEPfit/build/HEPfit"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3532,7 +3498,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/local/bin/"
@@ -3541,7 +3507,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -3559,6 +3524,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -3570,7 +3536,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -3580,7 +3546,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/jwd/HEPfit/build/HEPfit"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3626,7 +3591,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/sue/bin/"
@@ -3636,7 +3601,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -3657,6 +3621,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -3668,7 +3633,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -3678,7 +3643,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/jwd/HEPfit/build/HEPfit"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3700,8 +3664,8 @@ events:
       - "CMakeLists.txt:244 (find_package)"
     description: "The MPI test test_mpi for CXX in mode normal"
     directories:
-      source: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-CTmawr"
-      binary: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-CTmawr"
+      source: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-HHdgvr"
+      binary: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-HHdgvr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -3709,17 +3673,17 @@ events:
       variable: "MPI_RESULT_CXX_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-CTmawr'
+        Change Dir: '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-HHdgvr'
         
-        Run Build Command(s): /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_85be8/fast
-        /bin/gmake  -f CMakeFiles/cmTC_85be8.dir/build.make CMakeFiles/cmTC_85be8.dir/build
-        gmake[1]: Entering directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-CTmawr'
-        Building CXX object CMakeFiles/cmTC_85be8.dir/test_mpi.cpp.o
-        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++  -isystem /cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/include  -o CMakeFiles/cmTC_85be8.dir/test_mpi.cpp.o -c /jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-CTmawr/test_mpi.cpp
-        Linking CXX executable cmTC_85be8
-        /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85be8.dir/link.txt --verbose=1
-        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++ -Wl,-rpath -Wl,/cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/lib -Wl,--enable-new-dtags -L/cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/lib CMakeFiles/cmTC_85be8.dir/test_mpi.cpp.o -o cmTC_85be8  -Wl,-rpath,/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib/libmpi_cxx.so /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib/libmpi.so
-        gmake[1]: Leaving directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-CTmawr'
+        Run Build Command(s): /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_0349b/fast
+        /bin/gmake  -f CMakeFiles/cmTC_0349b.dir/build.make CMakeFiles/cmTC_0349b.dir/build
+        gmake[1]: Entering directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-HHdgvr'
+        Building CXX object CMakeFiles/cmTC_0349b.dir/test_mpi.cpp.o
+        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++  -isystem /cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/include  -o CMakeFiles/cmTC_0349b.dir/test_mpi.cpp.o -c /jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-HHdgvr/test_mpi.cpp
+        Linking CXX executable cmTC_0349b
+        /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0349b.dir/link.txt --verbose=1
+        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++ -Wl,-rpath -Wl,/cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/lib -Wl,--enable-new-dtags -L/cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/lib CMakeFiles/cmTC_0349b.dir/test_mpi.cpp.o -o cmTC_0349b  -Wl,-rpath,/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib/libmpi_cxx.so /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib/libmpi.so
+        gmake[1]: Leaving directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-HHdgvr'
         
       exitCode: 0
   -
@@ -3730,8 +3694,8 @@ events:
       - "CMakeLists.txt:244 (find_package)"
     description: "The MPI test test_mpi for CXX in mode MPICXX"
     directories:
-      source: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-2B8x9w"
-      binary: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-2B8x9w"
+      source: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-qQk6Hd"
+      binary: "/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-qQk6Hd"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -3739,17 +3703,17 @@ events:
       variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
       cached: true
       stdout: |
-        Change Dir: '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-2B8x9w'
+        Change Dir: '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-qQk6Hd'
         
-        Run Build Command(s): /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_8942f/fast
-        /bin/gmake  -f CMakeFiles/cmTC_8942f.dir/build.make CMakeFiles/cmTC_8942f.dir/build
-        gmake[1]: Entering directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-2B8x9w'
-        Building CXX object CMakeFiles/cmTC_8942f.dir/test_mpi.cpp.o
-        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++  -isystem /cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/include  -o CMakeFiles/cmTC_8942f.dir/test_mpi.cpp.o -c /jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-2B8x9w/test_mpi.cpp
-        Linking CXX executable cmTC_8942f
-        /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8942f.dir/link.txt --verbose=1
-        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++ -Wl,-rpath -Wl,/cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/lib -Wl,--enable-new-dtags -L/cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/lib CMakeFiles/cmTC_8942f.dir/test_mpi.cpp.o -o cmTC_8942f  -Wl,-rpath,/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib/libmpi_cxx.so /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib/libmpi.so
-        gmake[1]: Leaving directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-2B8x9w'
+        Run Build Command(s): /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_b0963/fast
+        /bin/gmake  -f CMakeFiles/cmTC_b0963.dir/build.make CMakeFiles/cmTC_b0963.dir/build
+        gmake[1]: Entering directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-qQk6Hd'
+        Building CXX object CMakeFiles/cmTC_b0963.dir/test_mpi.cpp.o
+        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++  -isystem /cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/include  -o CMakeFiles/cmTC_b0963.dir/test_mpi.cpp.o -c /jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-qQk6Hd/test_mpi.cpp
+        Linking CXX executable cmTC_b0963
+        /jwd/python_venv_py38/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0963.dir/link.txt --verbose=1
+        /cvmfs/sft.cern.ch/lcg/releases/gcc/11.3.0-de683/x86_64-el9/bin/g++ -Wl,-rpath -Wl,/cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/lib -Wl,--enable-new-dtags -L/cvmfs/sft.cern.ch/lcg/releases/openmpi/4.1.6-b6c0d/x86_64-el9-gcc11-opt/lib CMakeFiles/cmTC_b0963.dir/test_mpi.cpp.o -o cmTC_b0963  -Wl,-rpath,/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib/libmpi_cxx.so /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt/lib/libmpi.so
+        gmake[1]: Leaving directory '/jwd/HEPfit/build/CMakeFiles/CMakeScratch/TryCompile-qQk6Hd'
         
       exitCode: 0
   -
@@ -3794,8 +3758,8 @@ events:
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/BAT/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/BAT/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/BAT/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/BAT/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/BAT/"
@@ -3814,8 +3778,6 @@ events:
       - "/usr/sbin/"
       - "/sbin/BAT/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/BAT/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/usr/local/include/BAT/"
       - "/usr/local/include/"
       - "/usr/local/BAT/"
@@ -3877,8 +3839,8 @@ events:
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/BCModel.h"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/BAT/BCModel.h"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/BCModel.h"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/BAT/BCModel.h"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/BCModel.h"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/BAT/BCModel.h"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/BCModel.h"
       - "/usr/lib64/ccache/BAT/BCModel.h"
       - "/usr/lib64/ccache/BCModel.h"
       - "/usr/local/cuda/bin/BAT/BCModel.h"
@@ -3897,8 +3859,6 @@ events:
       - "/usr/sbin/BCModel.h"
       - "/sbin/BAT/BCModel.h"
       - "/sbin/BCModel.h"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/BAT/BCModel.h"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/BCModel.h"
       - "/usr/local/include/BAT/BCModel.h"
       - "/usr/local/include/BCModel.h"
       - "/usr/local/BAT/BCModel.h"
@@ -3935,6 +3895,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -3946,7 +3907,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -3956,7 +3917,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/jwd/HEPfit/build/HEPfit"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -4002,7 +3962,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/local/bin/"
@@ -4011,7 +3971,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/lib64/"
@@ -4064,7 +4023,7 @@ events:
       - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli/"
+      - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli/"
       - "/usr/lib64/ccache/"
       - "/usr/local/cuda/bin/"
       - "/usr/local/bin/"
@@ -4073,7 +4032,6 @@ events:
       - "/usr/local/sbin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/lib64/"
@@ -4095,6 +4053,7 @@ events:
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
+        - "/cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc11-opt"
       ENV{PATH}:
         - "/jwd/python_venv_py38/bin"
         - "/cvmfs/software.physik.uni-bonn.de/common/miniforge/4.9.2-7-py38/bin"
@@ -4106,7 +4065,7 @@ events:
         - "/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/jwd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/jwd/.vscode-server/cli/servers/Stable-bdd88df003631aaa0bcbe057cb0a940b80a476fa/server/bin/remote-cli"
+        - "/jwd/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli"
         - "/usr/lib64/ccache"
         - "/usr/local/cuda/bin"
         - "/usr/sue/bin"
@@ -4116,7 +4075,6 @@ events:
         - "/usr/local/sbin"
         - "/usr/sbin"
         - "/sbin"
-        - "/jwd/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/jwd/HEPfit/build/HEPfit"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"

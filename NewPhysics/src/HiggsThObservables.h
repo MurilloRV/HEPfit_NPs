@@ -12,6 +12,39 @@
 
 class NPbase;
 
+
+/**
+ * @class NP_FCCee_theo_unc
+ * @ingroup NewPhysics
+ * @brief A class for computing the new nuisance parameters
+ * @author Murillo Vellasco
+ * @copyright GNU General Public License
+ * @details A class for computing the new nuisance parameters, which are the newly estimated theoretical 
+ * uncertainties for the FCC-ee Higgs observables, based on the SMEFT approach.
+ */
+class NP_FCCee_theo_unc : public ThObservable {
+public:
+
+    /**
+     * @brief Constructor.
+     * @param[in] SM_i a reference to a StandardModel object or to any extension of it
+     * @param[in] sqrt_s_i the center-of-mass energy in TeV
+     */
+    NP_FCCee_theo_unc(const StandardModel& SM_i, const double sqrt_s_i);
+
+    /**
+     * @brief A method to compute the new nuisance parameters, which are the newly estimated theoretical 
+ * uncertainties for the FCC-ee Higgs observables, based on the SMEFT approach.
+     * @return NP_FCCee_theo_unc
+     */
+    double computeThValue();
+
+private:
+    const NPbase* myNPbase;
+    const double sqrt_s;
+};
+
+
 /**
  * @class muggH
  * @ingroup NewPhysics
